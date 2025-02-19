@@ -122,5 +122,5 @@ INSERT INTO book_authors (book_id, author_id) VALUES (10, 1);
     """))
 
 # 4) Use Pandas to read and display a table
-df = pd.read_sql("SELECT * FROM publishers;", engine)
+df = pd.read_sql("SELECT * FROM books;", engine)
 print(df)
